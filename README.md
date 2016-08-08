@@ -7,8 +7,7 @@ Fuse Camel ETL
 This example demonstrates using the camel-jpa and few integration components with A-MQ running on Red Hat JBoss Fuse to produce and consume JMS messages
 to extract, transform and load entities from two relational data sources.
 
-In this example, a Camel route controlled by a timer component that consumes records from source relational system that get transformed and 
-loaded to a target relational system.
+In this example, a Camel route controlled by a timer component that consumes records from source relational system that get transformed and loaded into a target relational system.
 
 Prerequisites
 -------------
@@ -17,12 +16,12 @@ Prerequisites
 * JBoss Fuse Server
 
 Create two relational sources, may be
-1. Source - Postgres
-2. Target - MySQL
+* Source - Postgres
+* Target - MySQL
 
 You should find ddls' under src/main/resources/db. Create schemas, run the ddls and configure JNDI data sources as,
-1. java:/mysqljws
-2. java:/psqljws 
+* java:/mysqljws
+* java:/psqljws 
 
 or you can have a different name which needs to be updated in persistence.xml
 
