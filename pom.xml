@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>org.apache.camel.archetypes</groupId>
-	<artifactId>fuseeap-camel-integrate</artifactId>
+	<artifactId>fuseeap-camel-etl</artifactId>
 	<packaging>war</packaging>
 
 	<properties>
